@@ -14,16 +14,18 @@ https://github.com/mharty3/data_engineering_zoomcamp_2022
 
 # My Notes
 
-### Week 1: Introduction
+[Weekly dates overview](https://docs.google.com/spreadsheets/d/e/2PACX-1vQACMLuutV5rvXg5qICuJGL-yZqIV0FBD84CxPdC5eZHf8TfzB-CJT_3Mo7U7oGVTXmSihPgQxuuoku/pubhtml)
+
+### Week 0
 **Tools:** Git / GitHub
 **Start date:** 27th November 2023
 **Duration:** 3 weeks
 
 ### Week 1: Introduction
 **Tools:** Docker / SQL
-**Start date:**
-**Homework due:**
-**Duration:**
+**Start date:** 15 January 2024
+**Homework due:** 25 January 2024
+**Duration:** 2 weeks
 
 ### Week 2: Workflow Orchestrations
 Tools: Mage
