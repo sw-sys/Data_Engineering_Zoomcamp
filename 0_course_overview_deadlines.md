@@ -1,15 +1,18 @@
 # Links for course
 
 - [Course GitHub Repo](https://github.com/DataTalksClub/data-engineering-zoomcamp)
+- [Course FAQ](https://docs.google.com/document/d/19bnYs80DwuUimHM65UV3sylsCn2j1vziPOwzBwQrebw/edit)
 - [Visual overview of course content](https://ci6.googleusercontent.com/proxy/sX4LFGFFDcI4e-b31MrLDi0j0Ctqy_IVP2Dod6mF73_iGvxGVG-aFBc2TJ2BsVlGNgTUZe-0fcKjtnBaazFmqq-31PuS8plXVnivYKd26fLpH9nZ_ggDgr_PzG4uDLM0QcBJScMM7wVKpyfozz-OnFTgvMmx8Q=s0-d-e1-ft#https://mcusercontent.com/0d7822ab98152f5afc118c176/images/47d139a5-36d6-7c42-41f1-e6cc3b48a05f.png)
 - [Slack channel](https://app.slack.com/client/T01ATQK62F8/C01FABYF2RG)
 - [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
+- [Course LLM](https://github.com/aaalexlit/faq-slack-bot)
 
 ## Useful Resources
 
 - [Data talks recommended books](https://datatalks.club/books.html)
 - [EcZachly's Data Engineer Handbook](https://github.com/DataEngineer-io/data-engineer-handbook)
 - [DataTalks YouTube Channel](https://www.youtube.com/@DataTalksClub) and [course playlist]()
+- [A community list of useful resources for the course](https://docs.google.com/document/d/1Bfp-K2hIovkETjeGsJOKl8Zo2dVyHY6SXIHyV5rkE0w/edit)
 
 ## Past Participants' Portfolios:
 https://github.com/ABZ-Aaron/DataEngineerZoomCamp/
