@@ -1,9 +1,9 @@
 # Links for course
 
-- [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
 - [Course GitHub Repo](https://github.com/DataTalksClub/data-engineering-zoomcamp)
-- [Slack channel](https://app.slack.com/client/T01ATQK62F8/C01FABYF2RG)
 - [Visual overview of course content](https://ci6.googleusercontent.com/proxy/sX4LFGFFDcI4e-b31MrLDi0j0Ctqy_IVP2Dod6mF73_iGvxGVG-aFBc2TJ2BsVlGNgTUZe-0fcKjtnBaazFmqq-31PuS8plXVnivYKd26fLpH9nZ_ggDgr_PzG4uDLM0QcBJScMM7wVKpyfozz-OnFTgvMmx8Q=s0-d-e1-ft#https://mcusercontent.com/0d7822ab98152f5afc118c176/images/47d139a5-36d6-7c42-41f1-e6cc3b48a05f.png)
+- [Slack channel](https://app.slack.com/client/T01ATQK62F8/C01FABYF2RG)
+- [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
 
 ## Useful Resources
 
