@@ -2,6 +2,7 @@
 
 - [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
 - [Course GitHub Repo](https://github.com/DataTalksClub/data-engineering-zoomcamp)
+- [EcZachly's Data Engineer Handbook](https://github.com/DataEngineer-io/data-engineer-handbook)
 - [DataTalks YouTube Channel](https://www.youtube.com/@DataTalksClub) and [course playlist]()
 - [Slack channel](https://app.slack.com/client/T01ATQK62F8/C01FABYF2RG)
 - [Visual overview of course content](https://ci6.googleusercontent.com/proxy/sX4LFGFFDcI4e-b31MrLDi0j0Ctqy_IVP2Dod6mF73_iGvxGVG-aFBc2TJ2BsVlGNgTUZe-0fcKjtnBaazFmqq-31PuS8plXVnivYKd26fLpH9nZ_ggDgr_PzG4uDLM0QcBJScMM7wVKpyfozz-OnFTgvMmx8Q=s0-d-e1-ft#https://mcusercontent.com/0d7822ab98152f5afc118c176/images/47d139a5-36d6-7c42-41f1-e6cc3b48a05f.png)
@@ -17,7 +18,7 @@ https://github.com/mharty3/data_engineering_zoomcamp_2022
 [Weekly dates overview](https://docs.google.com/spreadsheets/d/e/2PACX-1vQACMLuutV5rvXg5qICuJGL-yZqIV0FBD84CxPdC5eZHf8TfzB-CJT_3Mo7U7oGVTXmSihPgQxuuoku/pubhtml)
 
 ### Week 0
-**Tools:** Git / GitHub
+**Tools:** Git / GitHub / Docker
 **Start date:** 27th November 2023
 **Duration:** 3 weeks
 
@@ -29,7 +30,7 @@ https://github.com/mharty3/data_engineering_zoomcamp_2022
 
 ### Week 2: Workflow Orchestrations
 Tools: Mage
-**Start date:**
+**Start date:** 
 **Homework due:**
 **Duration:**
 
