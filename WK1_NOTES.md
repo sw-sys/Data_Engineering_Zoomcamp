@@ -23,5 +23,5 @@ Staff (2023, might have changed):
 To do:
 - [ ] [Homework](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/cohorts/2024)
 
-- [ ] [Watch video from 38:00](https://dezoomcamp.streamlit.app/Course_Overview)
+- [x] [Watch video](https://dezoomcamp.streamlit.app/Course_Overview)
 - [ ] Task here
