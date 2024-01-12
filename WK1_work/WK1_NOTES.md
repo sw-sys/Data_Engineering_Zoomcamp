@@ -1,6 +1,6 @@
 # Week 1: Introduction & Prerequisites
 
-## Tech: Docker, Postgres, Google Cloud Platform (GCP), Terraform
+Tech: Docker, Postgres, Google Cloud Platform (GCP), Terraform
 
 ---
 
