@@ -32,13 +32,15 @@ Set up:
 - Run postgress and pgadmin using Docker for NY dataset
 
 Docker:
-- [ ] [Intro to Docker](https://www.youtube.com/watch?v=EYNwNlOrpr0&t=5s)
+- [x] [Intro to Docker](https://www.youtube.com/watch?v=EYNwNlOrpr0&t=5s)
 
 **Video Notes:**
 - Data pipeline is a fancy name for process that inputs data, transforms it, outputs more data e.g. csv > Python transfomation > table in postgres
 - Docker - one computer can host many containers holding OS, libraries, ELTs. this means you can run db's in complete isolation/avoid conflict similar to envs. 
 - Advantages of Docker = fast reproducability, can run local experiments testing (to ensure behaviour consistant/integration tests), integration, running pipelines in the cloud by porting image/serverless, can use in conjunction with Spark.
-- 
+- It's possible to set up a container (e.g. python:3.9) but use a dockerfile to config what to do automatically e.g. FROM container, RUN a pip install, specify a WORKDIR, use ENTRYPOINT
+- use sys & argv to pass the file [0] then arguments [1] like dates
+- can use variables specified as args to return status updates
 
 - [ ] [Ingesting NY Taxi Data to Postgres](https://youtu.be/2JM-ziJt0WI)
 - [ ] [Connecting pgAdmin and Postgres](https://youtu.be/hCAIVe9N0ow)
