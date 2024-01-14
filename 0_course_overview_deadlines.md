@@ -12,6 +12,7 @@
 
 - [Data talks recommended books](https://datatalks.club/books.html)
 - [EcZachly's Data Engineer Handbook](https://github.com/DataEngineer-io/data-engineer-handbook)
+- [igorbarinov's awesome-data-engineering (tool repo)](https://github.com/igorbarinov/awesome-data-engineering)
 - [DataTalks YouTube Channel](https://www.youtube.com/@DataTalksClub) and [course playlist]()
 - [A community list of useful resources for the course](https://docs.google.com/document/d/1Bfp-K2hIovkETjeGsJOKl8Zo2dVyHY6SXIHyV5rkE0w/edit)
 
