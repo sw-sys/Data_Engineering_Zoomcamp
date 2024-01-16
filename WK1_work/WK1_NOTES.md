@@ -14,15 +14,28 @@ Tech: Docker, Postgres, Google Cloud Platform (GCP), Terraform
 - Cloud Part: Discover Google Cloud Platform and Terraform, focusing on automating the setup and management of your cloud architecture.
 
 ---
+
+### Week 1: Introduction
+**Tools:** Docker / SQL
+**Start date:** 15 January 2024
+**Homework due:** 25 January 2024
+**Duration:** 2 weeks
+
+---
+
 To do:
 - [x] [Watch Intro video]
 
 **Video Notes:**
 
-Staff (2023, might have changed):
-- Organisers - Alexey, Ankush, Sejal
-- Previous participants - Kalise, Jeff
-- Teaching assistants - Michael, Irem, Luis
+Staff Course instructors 2024: 
+- Alexey Grigorev (Various)
+- Victoria Perez Mola (week 4)
+- Michael Shoemaker (terraform)
+- Matt Palmer (2 - Data engineer - book 'Understanding ETL')
+- Luis Oliverira - Data & Analytics Engieneer (Github codespaces, Docker, DQL, DBT)
+- Sejal Vaidya (Data and ML engineer - Platform Infrastructure and Data Ingestion)
+- Irem Erturk (IaC and stream processing with Python)
 
 Set up:
 - [x] [Watch tool set-up video](https://www.youtube.com/watch?v=XOSUt8Ih3zA&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
