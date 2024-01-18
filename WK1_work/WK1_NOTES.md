@@ -56,6 +56,17 @@ Docker:
 - can use variables specified as args to return status updates
 
 - [ ] [Ingesting NY Taxi Data to Postgres](https://youtu.be/2JM-ziJt0WI)
+
+**Video Notes about terminal:**
+- running ubuntu, can use 'jupyter notebooks', 'less' to examine csv, 
+- problems with pgcli (can't pip install)
+- don't need to unzip .gz files
+- What are .gz files? A type of compression created using gnu zip software, common on unix based systems
+- use wslview . to go to file dir
+- take the first one hundred rows - head -n 100 yellow_tripdata.csv > yellow_head.csv
+- wc -l filename.csv command counts lines
+- view the data dictionary to see what each field is
+
 - [ ] [Connecting pgAdmin and Postgres](https://youtu.be/hCAIVe9N0ow)
 - [ ] [Putting the ingestion script into Docker](https://youtu.be/B1WwATwf-vY)
 - [ ] [Running Postgres and pgAdmin with Docker-Compose](https://youtu.be/hKI6PkPhpa0)
