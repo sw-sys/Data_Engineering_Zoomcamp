@@ -66,6 +66,8 @@ Docker:
 - take the first one hundred rows - head -n 100 yellow_tripdata.csv > yellow_head.csv
 - wc -l filename.csv command counts lines
 - view the data dictionary to see what each field is
+- Q. Why the heck are terminals so complex? Why are there so many and why all different syntax? Which to use for what? 
+- Bash for pgcli seems to work
 
 - [ ] [Connecting pgAdmin and Postgres](https://youtu.be/hCAIVe9N0ow)
 - [ ] [Putting the ingestion script into Docker](https://youtu.be/B1WwATwf-vY)
