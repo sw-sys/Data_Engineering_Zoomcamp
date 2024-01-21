@@ -86,12 +86,16 @@ Docker:
 - docs [docker network create](https://docs.docker.com/engine/reference/commandline/network_create/)
 - pgadmin is connected to postgres 
 
-- [ ] [Putting the ingestion script into Docker](https://youtu.be/B1WwATwf-vY)
+- [x] [Putting the ingestion script into Docker](https://youtu.be/B1WwATwf-vY)
 
 **Video Notes about Docker Compose:**
 - instead of running containers for postgres and pgadmin, can run both at once using Compose
+- once again [ ] [Docker Module Walk-Through on WSL](https://www.youtube.com/watch?v=Mv4zFm2AwzQ) more relevant
+- need to create docker-compose.yml file
+- on wsl, env needs to be mapped not listed (: not =)
 
 - [ ] [Running Postgres and pgAdmin with Docker-Compose](https://youtu.be/hKI6PkPhpa0)
+
 - [ ] [SQL refresher](https://youtu.be/QEcps_iskgg)
 
 Intro to GCP:
