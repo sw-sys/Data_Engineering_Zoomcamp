@@ -73,8 +73,24 @@ Docker:
 - pgcli commands to test conn - \dt & SELECT 1;
 - WSL just need pgadmin, pgcli is not the way to do this
 
-- [ ] [Connecting pgAdmin and Postgres](https://youtu.be/hCAIVe9N0ow)
+- [x] [Connecting pgAdmin and Postgres](https://youtu.be/hCAIVe9N0ow)
+
+- Not needed for WSL
+- use this:
+
+- [ ] [Docker Module Walk-Through on WSL](https://www.youtube.com/watch?v=Mv4zFm2AwzQ)
+
+**Video Notes about getting containers to connect:**
+- pgadmin and postgres running in different containers
+- created network called 'pg-network' so containers are able to see each other
+- docs [docker network create](https://docs.docker.com/engine/reference/commandline/network_create/)
+- pgadmin is connected to postgres 
+
 - [ ] [Putting the ingestion script into Docker](https://youtu.be/B1WwATwf-vY)
+
+**Video Notes about Docker Compose:**
+- instead of running containers for postgres and pgadmin, can run both at once using Compose
+
 - [ ] [Running Postgres and pgAdmin with Docker-Compose](https://youtu.be/hKI6PkPhpa0)
 - [ ] [SQL refresher](https://youtu.be/QEcps_iskgg)
 
