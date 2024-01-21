@@ -55,7 +55,9 @@ Docker:
 - use sys & argv to pass the file [0] then arguments [1] like dates
 - can use variables specified as args to return status updates
 
-- [ ] [Ingesting NY Taxi Data to Postgres](https://youtu.be/2JM-ziJt0WI)
+- [x] [Ingesting NY Taxi Data to Postgres](https://youtu.be/2JM-ziJt0WI)
+
+[NYC taxi dataset](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 
 **Video Notes about terminal:**
 - running ubuntu, can use 'jupyter notebooks', 'less' to examine csv, 
@@ -68,6 +70,8 @@ Docker:
 - view the data dictionary to see what each field is
 - Q. Why the heck are terminals so complex? Why are there so many and why all different syntax? Which to use for what? 
 - Bash for pgcli seems to work
+- pgcli commands to test conn - \dt & SELECT 1;
+- WSL just need pgadmin, pgcli is not the way to do this
 
 - [ ] [Connecting pgAdmin and Postgres](https://youtu.be/hCAIVe9N0ow)
 - [ ] [Putting the ingestion script into Docker](https://youtu.be/B1WwATwf-vY)
