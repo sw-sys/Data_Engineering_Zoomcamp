@@ -100,8 +100,26 @@ Docker:
 - [ ] [SQL refresher](https://youtu.be/QEcps_iskgg)
 
 Intro to GCP:
-- [ ] Introduction to GCP (Google Cloud Platform)
+- [x] Introduction to GCP (Google Cloud Platform)
+
+**Video notes:**
+- [Google Cloud Docs](https://cloud.google.com/docs)
+- cloud computing service - hosts compute, storage, app devs that run on Google hardware
+- We're covering infrastructure as a service (IaaS) for big data and storage and databases
+- Create projects to manage your work
+- to store data you create buckets
+
 - [ ] Introduction to Terraform Concepts & GCP Pre-Requisites
+
+**Video notes:**
+- Terraform is infrastructure as code. Make resources with code files.
+- Terraforming is shaping and creating conditions where you take a cloud platform like GCP, AWS and set up infrastructure where code can live and software can run using config files.
+- Because it's a file, you can see everything, share the infrastructure, reproduce it from dev to production and helps keep things tidy/costs low as you can easily bring all the resources down.
+- It does not manage or update code, deploy or update software, change immutable resources, can't manage resources outside the terraform config (e.g. kubernetes)
+- Terraform runs on your local machine which uses a 'provider' to communicate with different services to bring up different infrastructure (on GCP, AWS, Azure)
+- Providers are code that allows terraform to [manage resources on](https://registry.terraform.io/browse/providers)
+- Key commands - init (get the providers), plan (what am I about to do?), apply (the code in the tf files), destroy (remove everything defined in the tf files)
+
 - [ ] Workshop: Creating GCP Infrastructure with Terraform
 - [ ] Setting up the environment on cloud VM
 
