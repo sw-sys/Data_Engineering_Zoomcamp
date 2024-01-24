@@ -109,7 +109,7 @@ Intro to GCP:
 - Create projects to manage your work
 - to store data you create buckets
 
-- [ ] Introduction to Terraform Concepts & GCP Pre-Requisites
+- [x] Introduction to Terraform Concepts & GCP Pre-Requisites
 
 **Video notes:**
 - Terraform is infrastructure as code. Make resources with code files.
@@ -120,8 +120,24 @@ Intro to GCP:
 - Providers are code that allows terraform to [manage resources on](https://registry.terraform.io/browse/providers)
 - Key commands - init (get the providers), plan (what am I about to do?), apply (the code in the tf files), destroy (remove everything defined in the tf files)
 
-- [ ] Workshop: Creating GCP Infrastructure with Terraform
-- [ ] Setting up the environment on cloud VM
+- [x] Terraform Basics: Simple one file Terraform Deployment
+
+**Video notes:**
+- never upload your .json creds to github!
+- 'terraform fmt' command will format the .tf file
+- 'terraform plan'
+- 'terraform apply' - provides an overview of values passed to funcs before running code to create infrastructure (search these in docs for more info)
+- 'terraform destroy'- always do this, cut the cost
+- credentials can be set and unset e.g. 'echo $GOOGLE_CRENTIALS' tells you where the location is, 'unset GOOGLE_CREDENTIALS' makes it blank again
+
+- [x] Deployment with a Variables File
+
+**Video notes:**
+- 'terraform fmt' command will format the .tf file
+- Check the docs e.g. ['bigquery dataset'](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/bigquery_dataset) then *'ctrl'* + *'f'* for 'required' to see how to configure the thingy
+- Set your location to 'EU' (maybe?)
+- it's also possible to create a 'variables.tf' file and declare variables in relation to the classes used e.g. gcs_storage_class or location. Apply these in the main .tf file using *func = var.nameofvar*
+- credentials can also be set as a variable in the .tf file e.g. description = "My credentials" default = "./keys/my-creds.json" then call 'credentials = file(var.credentials)' in the main.tf
 
 Homework:
 - [ ] [Week 1 homework](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/cohorts/2024)
