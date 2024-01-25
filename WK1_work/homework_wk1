@@ -1,0 +1,13 @@
+SELECT COUNT(*)
+FROM "yellow_taxi_trips"
+WHERE "tpep_pickup_datetime" >= '2019-09-18 00:00:00' AND "tpep_pickup_datetime" < '2019-09-18 23:59:59'
+   OR "tpep_dropoff_datetime" >= '2019-09-18 00:00:00' AND "tpep_dropoff_datetime" < '2019-09-18 23:59:59';
+
+SELECT "trip_distance", "tpep_pickup_datetime"
+FROM "yellow_taxi_trips"
+WHERE "trip_distance" = (SELECT MAX("trip_distance") FROM "yellow_taxi_trips");
+
+SELECT "DOLocationID", "tip_amount" 
+FROM "yellow_taxi_trips" 
+ORDER BY "tip_amount" DESC 
+LIMIT 30;
