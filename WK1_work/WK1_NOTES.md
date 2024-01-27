@@ -112,6 +112,7 @@ Intro to GCP:
 - [x] Introduction to Terraform Concepts & GCP Pre-Requisites
 
 **Video notes:**
+- What is Terraform? allows you to write instructions on how to build digital infrastructure (servers, networks, storage etc) then automatically creates it to your specifications.
 - Terraform is infrastructure as code. Make resources with code files.
 - Terraforming is shaping and creating conditions where you take a cloud platform like GCP, AWS and set up infrastructure where code can live and software can run using config files.
 - Because it's a file, you can see everything, share the infrastructure, reproduce it from dev to production and helps keep things tidy/costs low as you can easily bring all the resources down.
