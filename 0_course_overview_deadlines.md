@@ -10,6 +10,7 @@
 
 ## Useful Resources
 
+- [Data Engineering Wiki](https://dataengineering.wiki/Index)
 - [Data talks recommended books](https://datatalks.club/books.html)
 - [EcZachly's Data Engineer Handbook](https://github.com/DataEngineer-io/data-engineer-handbook)
 - [igorbarinov's awesome-data-engineering (tool repo)](https://github.com/igorbarinov/awesome-data-engineering)
