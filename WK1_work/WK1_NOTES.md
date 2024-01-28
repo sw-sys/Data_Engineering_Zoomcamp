@@ -109,6 +109,8 @@ Intro to GCP:
 - Create projects to manage your work
 - to store data you create buckets
 
+- [ ] [Local Setup for Terraform and GCP](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/01-docker-terraform/1_terraform_gcp)
+
 - [x] Introduction to Terraform Concepts & GCP Pre-Requisites
 
 **Video notes:**
