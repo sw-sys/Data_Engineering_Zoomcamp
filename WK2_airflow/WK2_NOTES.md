@@ -43,7 +43,7 @@ To do:
 ## Mage 
 [Docs here](https://docs.mage.ai/introduction/overview) [Slack here](https://www.mage.ai/chat)
 
-- [ ] 2.2.2a - [What is Mage?](https://www.youtube.com/watch?v=AicKRcK3pa4&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
+- [x] 2.2.2a - [What is Mage?](https://www.youtube.com/watch?v=AicKRcK3pa4&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
 **Video notes:**
 - An Open source pipeline tool that allows yout to orchestrate, transform and integrate your data.
 - Mage concepts include: 
@@ -51,6 +51,12 @@ To do:
 - Pipelines - DAGs or data workflows, made up of blocks
 - Blocks - make up a transformation, written in Python, SQL or R. Blocks can be sensors (trigger on events), conditionals (branching and elif logic), dynamics (can create dynamic childnre) or webhooks (for addiitonal functionality), data integration, unified pipelines (pass data around), multi-user envs, templating
 - Load, Transform, Export - this is usually what the blocks are doing, LTE'ing data
+- Build, edit and share data pipelines with others including in a GUI or VS Code
+- Engineering best practices built in - in-line testing & debugging, full observability (inc build in support for dbt models, streaming etc), DRY principles (Don't Repeat Yourself) so no more spaghetti DAGs with dup funcs and weird imports
+- You can write the blocks and even less technical people can implement with the GUI
+- Designed to reduce set up, config, all the admin that's working but not producing any output
+- Projects > pipelines (DAGS, YAML files) > blocks (py or sql files which direct the work, orchestrated by Mage)
+- Anatomy of a block (imports, decorator, function(needs df), assertion)
 
 - [ ] 2.2.2b - [Configuring Mage](https://www.youtube.com/watch?v=tNiV7Wp08XE?list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
 **Video notes:**
