@@ -58,13 +58,19 @@ To do:
 - Projects > pipelines (DAGS, YAML files) > blocks (py or sql files which direct the work, orchestrated by Mage)
 - Anatomy of a block (imports, decorator, function(needs df), assertion)
 
-- [ ] 2.2.2b - [Configuring Mage](https://www.youtube.com/watch?v=tNiV7Wp08XE?list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
+- [x] 2.2.2b - [Configuring Mage](https://www.youtube.com/watch?v=tNiV7Wp08XE?list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
 **Video notes:**
+- Run image, docker compose up then go to http://localhost:6789/ to see Mage
+- [x] [Getting started repo](https://github.com/mage-ai/mage-zoomcamp)
 
-- [ ] 2.2.2c - [A Simple Pipeline](https://www.youtube.com/watch?v=stI-gg4QBnI&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
+- [x] 2.2.2c - [A Simple Pipeline](https://www.youtube.com/watch?v=stI-gg4QBnI&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
 **Video notes:**
-
-- [ ] [Getting started repo](https://github.com/mage-ai/mage-zoomcamp)
+- Collecting data from an API
+- At the top of mage is the project name
+- go to left menu > 'pipelines' page
+- click the name of the pipeline to enter, then to edit go to left menu 'edit pipeline'
+- Run the action, similar to Jupyter
+Scroll to last block, select the 3 dot icon and choose 'Execute with all upstream blocks'
 
 - [ ] 2.2.3a - [Configuring Postgres](https://www.youtube.com/watch?v=pmhI-ezd3BE&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
 **Video notes:**
