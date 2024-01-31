@@ -74,6 +74,12 @@ Scroll to last block, select the 3 dot icon and choose 'Execute with all upstrea
 
 - [ ] 2.2.3a - [Configuring Postgres](https://www.youtube.com/watch?v=pmhI-ezd3BE&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
 **Video notes:**
+- There's a local postgres in a Docker image we built so config it
+- Can see the pg creds (all db creds) in mage by going to Menu > Files > io_config.yaml
+- Within the io_config.yaml we have profiles (the default is 'default' but you can create more and call them anything you want e.g. 'dev')
+- it's possible to pull in env vars using jinja e.g. "{{ env_var('POSTGRES_DBNAME') }}"
+- create the pipeline, then the block and you can define the profile inside the new block
+- you can test a pg connection by creating a 'Data loader' SQL block, select raw SQL and SELECT 1;
 
 - [ ] 2.2.3b - [Writing an ETL Pipeline](https://www.youtube.com/watch?v=Maidfe7oKLs&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
 **Video notes:**
