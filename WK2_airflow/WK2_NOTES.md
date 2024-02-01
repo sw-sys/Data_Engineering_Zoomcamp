@@ -149,6 +149,11 @@ More information in the [airflow folder](https://github.com/DataTalksClub/data-e
 - [Video 1](https://www.youtube.com/watch?v=rFOFTfD1uGk&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
 - [Video 2](https://www.youtube.com/watch?v=VhmmbqpIzeI&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
 
+- [x] [2.2.9 Next Steps](https://www.youtube.com/watch?v=uUtj7N0TleQ)
+- Learn more about Mage - look at the docs, join slack channel for help with pipeline projects.
+- Research deployment (terraform), pipelines (stereaming and data integration concepts), alerting to pipeline failures and status, triggers and scheduling in mage can explore
+- To continue to learn as a data eng - personal projects, online resources/texts/github/slacks, books, engage with the data engineering community to meet others and share knowledge. Attend conferences, talkign about personal projects in blogs, posting on Linkedin and attending Meetups.
+
 **Video notes:**
 
 - [ ] Homework
