@@ -10,8 +10,6 @@
 - [Mage week](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/02-workflow-orchestration) 
 - [Airflow week](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/cohorts/2022/week_2_data_ingestion)
 
-## Homework:
-- WEEK 2 [HOMEWORK here](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2024/02-workflow-orchestration/homework.md)
 ---
 
 ### **Focus:** Week 2 is about task automation and coordination within complex data pipelines.
@@ -156,12 +154,18 @@ More information in the [airflow folder](https://github.com/DataTalksClub/data-e
 
 **Video notes:**
 
-- [ ] Homework
-- Create a new pipeline 'green_taxi_etl`
-- add a data block, url = `https://github.com/DataTalksClub/nyc-tlc-data/releases/tag/green/download`
-- set data types - ones from video are fine 
-- return the df e.g. return pd.read_csv(url, sep=",", compression="gzip", dtype=taxi_dtypes)
-- add a transform block (e.g. python generic)
-- add a data exporter block (e.g. Python > postgres)
-- for pg need to define schema_name, table_name, config profile dev etc
-- add a data loader block to see SQL > postgress conn
+---
+
+## Homework:
+
+- WEEK 2 [HOMEWORK here](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2024/02-workflow-orchestration/homework.md)
+
+---
+- [x] Create a new pipeline 'green_taxi_etl`
+- [x] add a data block, url = `https://github.com/DataTalksClub/nyc-tlc-data/releases/tag/green/download`
+- [x] set data types - ones from video are fine 
+- [ ] return the df e.g. return pd.read_csv(url, sep=",", compression="gzip", dtype=taxi_dtypes)
+- [ ] add a transform block (e.g. python generic)
+- [ ] add a data exporter block (e.g. Python > postgres)
+- [ ] for pg need to define schema_name, table_name, config profile dev etc
+- [ ] add a data loader block to see SQL > postgress conn
