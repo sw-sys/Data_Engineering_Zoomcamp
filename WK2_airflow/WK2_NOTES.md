@@ -164,8 +164,19 @@ More information in the [airflow folder](https://github.com/DataTalksClub/data-e
 - [x] Create a new pipeline 'green_taxi_etl`
 - [x] add a data block, url = `https://github.com/DataTalksClub/nyc-tlc-data/releases/tag/green/download`
 - [x] set data types - ones from video are fine 
-- [ ] return the df e.g. return pd.read_csv(url, sep=",", compression="gzip", dtype=taxi_dtypes)
-- [ ] add a transform block (e.g. python generic)
-- [ ] add a data exporter block (e.g. Python > postgres)
-- [ ] for pg need to define schema_name, table_name, config profile dev etc
-- [ ] add a data loader block to see SQL > postgress conn
+- [x] return the df e.g. return pd.read_csv(url, sep=",", compression="gzip", dtype=taxi_dtypes)
+- [x] add a transform block (e.g. python generic)
+- [x] Remove rows where the passenger count is equal to 0 
+- [ ] Remove rows where the trip distance is equal to zero.
+- [ ] Create a new column lpep_pickup_date by converting lpep_pickup_datetime to a date
+- [ ] Rename columns in Camel Case to Snake Case, e.g. VendorID to vendor_id.
+- [ ] Add three assertions (tests)
+- [x] find out what an assertion is
+- [ ] A1 - vendor_id is one of the existing values in the column (currently)
+- [x] A2 - passenger_count is greater than 0
+- [ ] A3 - trip_distance is greater than 0
+- [ ] add a data exporter block (e.g. Python > postgres) Using a Postgres data exporter (SQL or Python), write the dataset to a table called green_taxi in a schema mage. Replace the table if it already exists.
+- [ ] for pg may need to define schema_name, table_name, config profile dev etc
+- [ ] add a data loader block to see SQL > postgress conn (to check if working?)
+- [ ] GCP - Write your data as Parquet files to a bucket in GCP, partioned by lpep_pickup_date. Use the pyarrow library!
+- [ ] Schedule your pipeline to run daily at 5AM UTC.
