@@ -156,7 +156,7 @@ More information in the [airflow folder](https://github.com/DataTalksClub/data-e
 
 ---
 
-## Homework:
+## [x] Submit Homework:
 
 - WEEK 2 [HOMEWORK here](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2024/02-workflow-orchestration/homework.md)
 
@@ -180,3 +180,5 @@ More information in the [airflow folder](https://github.com/DataTalksClub/data-e
 - [ ] add a data loader block to see SQL > postgress conn (to check if working?)
 - [ ] GCP - Write your data as Parquet files to a bucket in GCP, partioned by lpep_pickup_date. Use the pyarrow library!
 - [ ] Schedule your pipeline to run daily at 5AM UTC.
+- [ ] Learning in public update
+- [x] Upload files to repo
