@@ -13,10 +13,23 @@
 
 - WK3 DTC [Repo](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/03-data-warehouse)
 
-
 To do:
-- [ ] Watch [Data Warehouse and BigQuery](https://www.youtube.com/watch?v=jrHljAoD6nM&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
+ 
+- [x] Watch [Data Warehouse and BigQuery](https://www.youtube.com/watch?v=jrHljAoD6nM&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
 **Video Notes:**
+- OLAP - OnLine Analytical Process - hold lots of data, designed to find insights. Periodically refresh data. Denormalised (less joins increases speed of querying). 
+- OLTP - OnLine Transaction Processing - SQL backend. Fast but small updates. Normalised data for efficiency. 
+- Data warehouse - what is it? An OLAP solution used for analysis. It holds raw data, meta data and summary data.
+- BigQuery - what is it? A serveless data warehouse. It's easy to scale. Has built in feature for ML, geospacial analysis and BI. Stores data seperate from the compute engine which analyses the data = cost win.
+- Go in to settings to disable "cached" data to get more consistant results.
+- Gives access to public data (search in explorer)
+- It's possible to 'explore data' using data studio
+- Cost - around 1 TB of data processing was $5 in 2022. Can also prerequest slots (100 = $1000 dollars a month 0r 200TB data processing)
+- Partitioning - can be done on creation date so only data processed is based on date. This saves money. e.g. PARTITIONED BY DATE(tpep_pickup_datetime)
+- Partitions and clusters - It's possible to cluster within partitions and increase performance e.g. CLUSTER BY VendorID
+- Best practices - 
+- Internals - 
+- ML in BQ -
 
 - [ ] Watch [Partioning and Clustering](https://www.youtube.com/watch?v=jrHljAoD6nM&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
 **Video Notes:**
