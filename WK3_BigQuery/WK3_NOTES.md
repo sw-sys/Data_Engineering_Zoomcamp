@@ -31,11 +31,33 @@ To do:
 - Internals - 
 - ML in BQ -
 
-- [ ] Watch [Partioning and Clustering](https://www.youtube.com/watch?v=jrHljAoD6nM&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
+- [ ] Watch [Partioning and Clustering](https://youtu.be/-CqXf7vhhDs&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
 **Video Notes:**
 
-- [ ] Watch [Partioning vs Clustering](https://www.youtube.com/watch?v=-CqXf7vhhDs&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
-**Video Notes:**
+- if your dataset is less than 1GB, you won't see any improvements from partitioning or clustering the data on query performance
+- However it will add cost because metadata
+
+#### PARTITIONING 
+
+There are different types of partioning:
+
+1. time-unit column: unit can be hourly, daily, weekly, monthly
+2. Ingestion time (_PARTITIONTIME):
+3. Integer range partitioning:
+
+- You can partition for volume e.g. if you medium sized you might partition by day but if you have massive volumes you might process based on an hourly time range
+- there is a limit on the number of partitions in Big Query (4000 - if doing hourly partitions you should have a 'expire partitioning' strategy)
+- 'expire partitioning' strategy:
+
+#### CLUSTERING
+
+- Column order matters - the sort order of the data is set by column organisation - so it will sort first on the most left column, then move across to the right most column
+- You cna specify up to 4 clustering cols in Google Bigquery but they must be 'top level' and non-repeating columns
+- You can choose between these types for clustering columns: date, bool, geography, int64, numeric, bignumeric, string, timestamp, datetime
+
+#### Partitioning vs Clustering
+
+
 
 - [ ] Watch [BigQuery Best Practices](https://www.youtube.com/watch?v=k81mLJVX08w&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
 **Video Notes:**
