@@ -31,7 +31,7 @@ To do:
 - Internals - 
 - ML in BQ -
 
-- [ ] Watch [Partioning and Clustering](https://youtu.be/-CqXf7vhhDs&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
+- [x] Watch [Partioning and Clustering](https://youtu.be/-CqXf7vhhDs&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
 **Video Notes:**
 
 - if your dataset is less than 1GB, you won't see any improvements from partitioning or clustering the data on query performance
@@ -57,13 +57,35 @@ There are different types of partioning:
 
 #### Partitioning vs Clustering
 
+Clustering is great for when more granularity is needed, when queries use common filters/aggregation against multiple particular columns, when lots of values are unique (high cardinality).
 
+Partitoning works best when filter or aggregating is on a single column and you need partiton-level managament.
 
-- [ ] Watch [BigQuery Best Practices](https://www.youtube.com/watch?v=k81mLJVX08w&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
+When to use choose clustering (over partitioning):
+- when you'd need to partition so often that you'd need to do so again every few minutes
+- if partitioning leads to amount of data being less than 1GB per partition
+- Big query will auto cluster when newly inserted data is added to the clustered table
+
+- [x] Watch [BigQuery Best Practices](https://www.youtube.com/watch?v=k81mLJVX08w&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
 **Video Notes:**
+- Avoid SELECT *
+- Price queries before running them
+- use clustering/partitioning, don't process unnecessary data
+- if using streaming inserts, be careful. Cost can increase drastically so material query results in stages
+
+For query performance:
+- filter on partitioned columns
+- use nested or repeated columns, not denormalise data - why? improve read performance, reduce the need for complex joins, and enable parallel execution
+- reduce data before using a JOIN - why? optimises query performance as in BQ there is no index primary keys so comparisons take longer
+- Do not treat WITH clauses as prepared statements - not sure what this means
+- avoid oversharding tables - adding too many unnecessary partitions can cause performance impacts as each shard needs schema, metadata and permissions (basically it becomes less efficient?)
+- avoid JS user-defined funcs
+- use aggredation functions (hyperloglog++) - algorithm which is more efficient at estimating cardinality then COUNT(DISTINCT)
+- optimise join patterns - place tables based on size, largest first
 
 - [ ] Watch [Internals of Big Query](https://www.youtube.com/watch?v=eduHi1inM4s&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
 **Video Notes:**
+- You don't need to know this but it might help you build the data product in the future
 
 ## Advanced topics
 - [ ] Watch [BigQuery Machine Learning](https://www.youtube.com/watch?v=B-WtpB0PuG4&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
