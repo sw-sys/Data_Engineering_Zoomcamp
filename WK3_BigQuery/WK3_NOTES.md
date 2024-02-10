@@ -90,6 +90,7 @@ For query performance:
 ## Advanced topics
 - [ ] Watch [BigQuery Machine Learning](https://www.youtube.com/watch?v=B-WtpB0PuG4&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
 **Video Notes:**
+- 
 
 - [ ] Watch [SQL for ML in BigQuery](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/03-data-warehouse/big_query_ml.sql)
 **Video Notes:**
